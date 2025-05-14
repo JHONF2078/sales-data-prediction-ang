@@ -1,0 +1,2 @@
+E:\projects\SalesDatePrediction\salesdateprediction.client\obj\Debug\salesdateprediction.client.esproj.CoreCompileInputs.cache
+E:\projects\SalesDatePrediction\src\salesdateprediction.client\obj\Debug\salesdateprediction.client.esproj.CoreCompileInputs.cache

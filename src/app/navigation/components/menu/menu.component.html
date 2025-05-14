@@ -1,0 +1,13 @@
+<mat-nav-list class="sidebar-list">
+  <mat-list-item [routerLink]="'/orders'" routerLinkActive="active-link" (click)="handleClick()">
+    <mat-icon>menu_book</mat-icon>
+    <span class="menu-text">Orders</span>
+  </mat-list-item>
+
+  <mat-list-item [routerLink]="'/graphic-d3'" routerLinkActive="active-link" (click)="handleClick()">
+    <mat-icon>bar_chart</mat-icon>
+    <span class="menu-text">Gráfica</span>
+  </mat-list-item>
+
+  <div class="spacer"></div>
+</mat-nav-list>

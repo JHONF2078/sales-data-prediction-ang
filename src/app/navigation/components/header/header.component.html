@@ -1,0 +1,20 @@
+<mat-toolbar color="primary">
+  <button mat-icon-button (click)="toggleMenu.emit()">
+    <mat-icon>menu</mat-icon>
+  </button>
+
+  <span>Sales Date Prediction App</span>
+
+  <span class="spacer"></span>
+  <img src="/images/logo.png" alt="Logo" width="32" height="32" />
+
+  <button mat-icon-button [matMenuTriggerFor]="mobileMenu" class="mobile-menu">
+    <mat-icon>more_vert</mat-icon>
+  </button>
+
+  <mat-menu #mobileMenu="matMenu">
+  </mat-menu>
+
+  <nav class="nav-links">
+  </nav>
+</mat-toolbar>
