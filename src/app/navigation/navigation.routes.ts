@@ -8,7 +8,7 @@ export const NAVIGATION_ROUTES: Routes = [
         .then(m => m.NavigationPageComponent),
     children: [
       {
-        path: '', // Redirigir a 'home' por defecto
+        path: '', // Redirigir a 'home' por defecto ss
         redirectTo: 'orders',
         pathMatch: 'full',
       },
